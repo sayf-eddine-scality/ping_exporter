@@ -80,7 +80,6 @@ nfpms:
 
       - dst: /run/systemd/system/ping_exporter.service.d
         type: dir
-
     overrides:
       deb:
         scripts:
