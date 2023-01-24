@@ -87,6 +87,11 @@ nfpms:
           postinstall:  dist/postinstall.sh
           preremove:    dist/preremove.sh
           postremove:   dist/postremove.sh
+      rpm:
+        scripts:
+          post: dist/postinstall.sh
+          preun: dist/preremove.sh
+          postun: dist/postremove.sh
 
 changelog:
   sort: asc
